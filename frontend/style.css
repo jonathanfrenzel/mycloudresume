@@ -53,16 +53,21 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  background: url("background.jpg") center/cover no-repeat;
+  min-height: 720px;
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+    url("./background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 80px 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.72);
+  display: none;
 }
 
 .hero-inner {
