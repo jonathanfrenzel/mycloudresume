@@ -1,6 +1,6 @@
 # Cloud Resume Project
 
-## Version 1.0: Day 1 HTML and CSS Foundation
+## Version 1.1: Day 1 HTML and CSS Foundation
 
 Day 1 focused on building the front end foundation of my cloud resume site using raw HTML and CSS. The goal was to turn an initial layout concept into a clean, functional webpage that could later support cloud based features.
 
@@ -15,6 +15,7 @@ This version represents the foundation of the site. It demonstrates my ability t
 ## Next Steps
 
 Expand the site with dynamic content and cloud based functionality.
+Add more projects.
 
 ## Tech Stack
 
