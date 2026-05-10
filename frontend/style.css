@@ -53,16 +53,21 @@ body {
 /* HERO */
 .hero {
   position: relative;
-  background: url("background.jpg") center/cover no-repeat;
+  min-height: 720px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+    url("./background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 80px 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.72);
+  display: none;
 }
 
 .hero-inner {
@@ -79,7 +84,7 @@ body {
   font-weight: 900;
   letter-spacing: 2px;
   margin-bottom: 40px;
-  background: rgba(0, 0, 0, 0.28);
+  background: rgba(0, 0, 0, 0.42);
   padding: 28px;
   border-radius: 18px;
 }
@@ -92,10 +97,10 @@ body {
   gap: 48px;
   max-width: 920px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.42);
+  background: rgba(0, 0, 0, 0.48);
   padding: 32px;
   border-radius: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .hero-image img {
